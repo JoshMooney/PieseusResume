@@ -1,3 +1,35 @@
+.cv-icon {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 36px;
+    height: 36px;
+}
+
+.cv-icon:hover, .cv-icon:focus, .cv-icon:active {
+    -webkit-filter:none;
+    width: 36px;
+    height: 36px;
+}
+
+.cv-icon-long {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    color: #495057;
+    width: 46px;
+    height: 34px;
+}
+
+.cv-icon-long:hover {
+    -webkit-filter:none;
+    width: 46px;
+    height: 34px;
+}
+
+.cv-note {
+    position: absolute;
+    font-size: 14px;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
